@@ -97,3 +97,5 @@ while True:
         print("Trained answer: " + dictionary.makeSentenceFromDictionary(highestQAAnswer))
 
         compare.getInSource(trainingData["data"]["statements"], highestQAAnswer)
+    else:
+        print("[!] Sorry, I don't know that command yet.")
